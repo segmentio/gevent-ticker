@@ -3,7 +3,7 @@ import os
 
 setup(
     name = 'gevent_ticker',
-    version = '0.0.1',
+    version = '0.0.2',
     packages=[
         'gevent_ticker'
     ],

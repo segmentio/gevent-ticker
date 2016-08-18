@@ -25,7 +25,7 @@ class Ticker:
 
     def start(self):
         if not self.thread:
-            self.thread = gevent.spawn(set_interval, self._tick(), self.period)
+            self.thread = gevent.spawn(set_interval, self._tick, self.period)
 
     def stop(self):
         if self.thread:

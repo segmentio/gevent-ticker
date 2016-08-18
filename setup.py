@@ -8,7 +8,7 @@ setup(
         'gevent_ticker'
     ],
     install_requires=[
-        'gevent_timer>=0.1.0,<1.2.0',
+        'gevent_timer>=0.1.0,<0.2.0',
         'gevent'
     ]
 )

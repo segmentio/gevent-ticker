@@ -1,0 +1,14 @@
+# General stuff
+*.log
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# dotenv
+.env
+
+# setup tools
+*.egg-info/
+dist

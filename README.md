@@ -1,3 +1,3 @@
 # gevent-ticker
 
-pip install gevent-ticker
+pip install gevent_ticker
